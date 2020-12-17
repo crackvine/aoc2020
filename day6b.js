@@ -27,6 +27,6 @@ const unanimousCorrectResponseCount = (allInput) => {
   return inputArr.reduce((acc, x) => acc + unanimousCorrect(x).length, 0);
 };
 
-// console.log(uniqueResponseCount(input));
+console.log(unanimousCorrectResponseCount(input));
 
 module.exports = { unanimousCorrect, unanimousCorrectResponseCount };
